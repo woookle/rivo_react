@@ -25,11 +25,11 @@ const BestSelling = () => {
   ];
   return (
     <section class="best_selling">
-      <p class="selling_title">Best selling</p>
-      <p class="selling_title_content">
+      <p class="selling_title wow animate__animated animate__fadeInUp">Best selling</p>
+      <p class="selling_title_content wow animate__animated animate__fadeInUp">
         Get in on the trend with our curated selection of best-selling styles.
       </p>
-      <div class="selling_blocks">
+      <div class="selling_blocks wow animate__animated animate__fadeIn">
         <div class="container">
           {sellingBlocks.map((el, i) => (
             <SellingBlock
@@ -42,7 +42,7 @@ const BestSelling = () => {
           ))}
         </div>
       </div>
-      <div class="see_all__sells">
+      <div class="see_all__sells wow animate__animated animate__fadeInUp">
         <a href="#">
           <p>See all</p>
           <img src={seeAllArrow} alt="arrow" />

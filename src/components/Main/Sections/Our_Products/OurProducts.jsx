@@ -55,8 +55,8 @@ const OurProducts = () => {
 
   return (
     <section class="our_products">
-      <p class="title_products">Our products</p>
-      <ul class="nav_menu_products">
+      <p class="title_products wow animate__animated animate__fadeInUp">Our products</p>
+      <ul class="nav_menu_products wow animate__animated animate__fadeInUp">
         <li>
           <a href="#">SALE</a>
         </li>
@@ -73,7 +73,7 @@ const OurProducts = () => {
         </li>
       </ul>
       <div class="container">
-        <div class="products_content">
+        <div class="products_content wow animate__animated animate__fadeInLeft">
           {blockProducts.map((el, i) => (
             <Product
               key={i}

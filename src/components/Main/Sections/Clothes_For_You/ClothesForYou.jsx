@@ -25,12 +25,12 @@ const ClothesForYou = () => {
 
   return (
     <section class="clothes_for_you">
-      <p class="designer_title">Designer Clothes For You</p>
-      <p class="designer_sub_title">
+      <p class="designer_title wow animate__animated animate__fadeInUp">Designer Clothes For You</p>
+      <p class="designer_sub_title wow animate__animated animate__fadeInUp">
         Immerse yourself in the world of luxury fashion with our meticulously
         crafted designer clothes!
       </p>
-      <div class="container">
+      <div class="container wow animate__animated animate__fadeInUp">
         {clothes.map((el, i) => (
           <ClotheBlock
             key={i}

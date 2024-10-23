@@ -5,6 +5,7 @@ import ExclusiveOffer from "./Sections/Exclusive_Offer/ExclusiveOffer";
 import ClothesForYou from "./Sections/Clothes_For_You/ClothesForYou";
 import FeedbackCorner from "./Sections/Feedback_Corner/FeedBackCorner";
 
+
 const Main = () => {
   return (
     <div>

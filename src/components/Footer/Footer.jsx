@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div class="container">
-        <div class="top_footer">
+        <div class="top_footer wow animate__animated animate__fadeInDown">
           <div class="block_logo_and_social_media">
             <img src={footer_logo} alt="logo" class="footer_logo" />
             <p>Social Media</p>

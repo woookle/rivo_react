@@ -3,11 +3,11 @@ import exOffer from '../../../../img/exclusive_offer.png'
 
 const ExclusiveOffer = () => {
   return (
-    <section class="exclusive_offer">
+    <section class="exclusive_offer wow animate__animated animate__fadeInUp">
       <div class="container">
         <div class="exc_block">
-          <img src={exOffer} alt="exclusive_offer" />
-          <div class="exc_right_block">
+          <img src={exOffer} alt="exclusive_offer" className="wow animate__animated animate__fadeInUp" />
+          <div class="exc_right_block wow animate__animated animate__fadeInUp">
             <p class="exc_title">Exclusive offer</p>
             <p class="exc_sub_title">
               Unlock the ultimate style upgrade with our exclusive offer Enjoy

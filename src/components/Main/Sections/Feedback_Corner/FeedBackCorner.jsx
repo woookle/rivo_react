@@ -21,8 +21,8 @@ const FeedbackCorner = () => {
 
   return (
     <section class="feedback_corner">
-      <p class="feed_title">Feedback Corner</p>
-      <div class="container">
+      <p class="feed_title wow animate__animated animate__fadeInUp">Feedback Corner</p>
+      <div class="container wow animate__animated animate__fadeInLeft">
         {feeds.map((el, i) => (
           <FeedBlock
             key={i}
@@ -31,7 +31,7 @@ const FeedbackCorner = () => {
           ></FeedBlock>
         ))}
       </div>
-      <div class="scroll_menu">
+      <div class="scroll_menu wow animate__animated animate__fadeInDown">
         <div class="scroll">
           <img src={arrowLeft} alt="left" />
         </div>
